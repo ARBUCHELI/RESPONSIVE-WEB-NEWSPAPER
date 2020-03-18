@@ -7,3 +7,7 @@ The following images show how the application works:
 When the Web application is opened in a small viewport (mobile, tablet), the items of the menu are contained inside a hamburguer menu.
 
 ![ITEMS INSIDE OF THE HAMBURGUER MENU](https://github.com/anferebu/RESPONSIVE-WEB-NEWSPAPER/blob/master/ITEMS%20IN%20THE%20HAMBURGUER%20MENU.jpg)
+
+The user can make click in the hamburguer menu to deploy the items of the menu.
+
+![CLICK IN THE HAMBURGUER MENU](https://github.com/anferebu/RESPONSIVE-WEB-NEWSPAPER/blob/master/CLICK%20ON%20THE%20HAMBURGUER%20MENU.jpg)
