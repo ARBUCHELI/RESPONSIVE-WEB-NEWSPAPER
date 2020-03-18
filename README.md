@@ -11,3 +11,9 @@ When the Web application is opened in a small viewport (mobile, tablet), the ite
 The user can make click in the hamburguer menu to deploy the items of the menu.
 
 ![CLICK IN THE HAMBURGUER MENU](https://github.com/anferebu/RESPONSIVE-WEB-NEWSPAPER/blob/master/CLICK%20ON%20THE%20HAMBURGUER%20MENU.jpg)
+
+Responsive Web Site.
+
+![RESPONSIVE WEBSITE](https://github.com/anferebu/RESPONSIVE-WEB-NEWSPAPER/blob/master/RESPONSIVE%20WEBSITE.jpg)
+
+
