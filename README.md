@@ -16,4 +16,12 @@ Responsive Web Site.
 
 ![RESPONSIVE WEBSITE](https://github.com/anferebu/RESPONSIVE-WEB-NEWSPAPER/blob/master/RESPONSIVE%20WEBSITE.jpg)
 
+<strong>INSTRUCTIONS</strong>
+
+1) Donwload and unzip the repository.
+2) Inside of the repository directory a zipped folder with the name images is located.  Unzip the images inside of the folder that contains the html and the css files.
+3) Open the index.html file in Google Chrome.
+
+Author: Andrés R. Bucheli.
+
 
