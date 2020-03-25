@@ -215,12 +215,12 @@ main { /*Configuration of the content*/
 
 .scores {
   padding-top: 1em;
-  flex-grow: 1;
+  flex-grow: 1; /*The flex-grow property specifies how much the item will grow compared to others item inside that container. In other words, it is the ability of an item to grow compared to other items present inside the same container.*/
 }
 
 .scores__table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: collapse; /*The border-collapse property sets whether table borders should collapse into a single border or be separated as in standard HTML.*/
 }
 
 .scores__table th,
@@ -234,11 +234,11 @@ main { /*Configuration of the content*/
   background-color: #78909C;
 }
 
-.scores__table tr:nth-child(odd) td {
+.scores__table tr:nth-child(odd) td { /*Odd and even are keywords that can be used to match child elements whose index is odd or even (the index of the first child is 1).*/
   background-color: #fff;
 }
 
-.scores__table tr:nth-child(even) td {
+.scores__table tr:nth-child(even) td { /*Odd and even are keywords that can be used to match child elements whose index is odd or even (the index of the first child is 1).*/
   background-color: #eceff1;
 }
 
@@ -246,12 +246,12 @@ main { /*Configuration of the content*/
   font-weight: bold;
 }
 
-.scores__table td:nth-child(3) {
+.scores__table td:nth-child(3) { /*Locates the third td element to the right of the box*/
   text-align: right;
 }
 
 .scores__table td:nth-child(2),
-.scores__table td:nth-child(5) {
+.scores__table td:nth-child(5) { /*Locate the second and fifth td element in the center*/
   text-align: center;
 }
 
@@ -262,50 +262,50 @@ main { /*Configuration of the content*/
  */
 
 .weather {
-  flex-grow: 1;
+  flex-grow: 1; /*/*The flex-grow property specifies how much the item will grow compared to others item inside that container. In other words, it is the ability of an item to grow compared to other items present inside the same container.*/
   padding: 1em;
 }
 
-.weather__location {
+.weather__location { /*Configuration of the weather__location element*/
   display: block;
   font-weight: 300;
   font-size: 1.5em;
 }
 
-.weather__desc {
+.weather__desc { /*Configuration of the weather__desc element*/
   display: block;
   font-size: 1.2em;
 }
 
-.weather__today {
+.weather__today { /*Configuration of the weather__today element*/
   width: 60%;
   vertical-align: middle;
 }
 
-.weather__today__image {
-  vertical-align: middle
+.weather__today__image { /*Configuration of the weather__today__image element*/
+  vertical-align: middle /*The vertical-align property sets the vertical alignment of an element.*/
 }
 
-.weather__today__temp {
+.weather__today__temp { /*Configuration of the weather__today__temp element*/
   font-size: 3em;
 }
 
-.weather__today__deg {
+.weather__today__deg { /*Configuration of the weather__today__deg element*/
   font-size: 2em;
   display: inline;
 }
 
-.weather__next__item {
+.weather__next__item { /*Configuration of the items of the list*/
   display: inline-block;
   width: 20%;
   text-align: center;
 }
 
-.weather__next__item span {
+.weather__next__item span { /*Configuration of the span*/
   display: block;
 }
 
-.weather__next__image {
+.weather__next__image { /*Configuration of the weather images*/
   width: 100%;
 }
 
@@ -316,34 +316,34 @@ main { /*Configuration of the content*/
  *
  */
 
-.recent-news {
+.recent-news { /*Configuration of the recent news section*/
   flex-grow: 1;
   clear: both;
   padding: 1em;
 }
 
-.snippet {
+.snippet { /*Configuration of the snippet elements*/
   clear: both;
   margin: 24px 0;
 }
 
-.snippet__thumbnail {
+.snippet__thumbnail { /*Configuration of the snippet__thumbnail image*/
   width: 100px;
   float: left;
   margin-right: 1em;
 }
 
-.snippet__title {
+.snippet__title { /*Configuration of the title of the snippet*/
   font-weight: 500;
 }
 
-.snippet__title a {
+.snippet__title a { /*Configuration of the linkable titles of the news*/
   text-decoration: none;
   color: #666;
   padding: 1.5em inherit;
 }
 
-.snippet__title a:hover,
+.snippet__title a:hover, /*Configuration of the linkable titles of the news*/
 .snippet__title a:active {
   text-decoration: underline;
 }
@@ -354,7 +354,7 @@ main { /*Configuration of the content*/
  * Footer
  *
  */
-
+/*Configuration of the footer*/
 footer {
   border-top: 1px solid #E0E0E0;
   padding: 1em;
