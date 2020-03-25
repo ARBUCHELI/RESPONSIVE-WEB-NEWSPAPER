@@ -20,7 +20,7 @@ Responsive Web Site.
 
 <strong>INSTRUCTIONS</strong>
 
-1) Donwload and unzip the repository.
+1) Donwload and unzip the repository folder.
 2) Inside of the repository directory a zipped folder with the name images is located.  Unzip the images folder located inside of the repository.
 3) Open the index.html file in Google Chrome to see the project.
 
