@@ -1,4 +1,4 @@
-body, html {
+body, html { /*Configuration of all the content of the page*/
   margin: 0;
   padding: 0;
   width: 100%;
@@ -6,21 +6,21 @@ body, html {
 }
 
 body {
-  font-family: Roboto;
+  font-family: Roboto; /*Font type of all the content of the page*/
   font-size: 12px;
-  color: #424242;
+  color: #424242; /*Color of all the content of the page (dark grey*/
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5 { /*Configuration of the headers*/
   margin: 0; 
 }
 
 header, nav, footer, section, article, div {
-  box-sizing: border-box;
+  box-sizing: border-box; /*tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
 }
 
 ul {
-  list-style: none;
+  list-style: none; /*No bullet points*/
   padding: 0;
   margin: 0;
 }
@@ -33,7 +33,7 @@ ul {
  */
 
 .news__more {
-  float: right;
+  float: right; /*The element floats to the right of its container*/
   font-size: .8em;
   color: #333;
   text-decoration: none;
@@ -47,25 +47,25 @@ ul {
  */
 
 .header {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26); /*Adds a shadow in the bottom border of the box that contains the header*/
   min-height: 56px;
-  transition: min-height 2s;
+  transition: min-height 2s; /*Allows to eliminate the horizontal line for bigger viewports*/
 }
 
-.header__inner {
+.header__inner { /*Configuration of the header*/
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.header__logo {
+.header__logo { /*Configuration of the logo*/
   height: 72px;
   margin-right: 1em;
   vertical-align: top;
   margin-top: 12px;
 }
 
-.header__title {
+.header__title { /*Configuration of the title of the page*/
   font-weight: 300;
   font-size: 4em;
   margin: 0.5em 0.25em;
@@ -80,19 +80,19 @@ ul {
  *
  */
 
-.nav {
+.nav { /*Configuration of the menu*/
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.nav__list {
+.nav__list { /*Configuration of the menu*/
   width: 100%;
   padding: 0;
   margin: 0;
 }
 
-.nav__item {
+.nav__item { /*Configuration of the items of the menu*/
   box-sizing: border-box;
   display: inline-block;
   width: 24%;
@@ -102,13 +102,13 @@ ul {
   text-transform: uppercase;
 }
 
-.nav a {
+.nav a { /*Configuration of the clickable items*/
   text-decoration: none;
   color: #616161;
   padding: 1.5em;
 }
 
-.nav a:hover {
+.nav a:hover { /*Configuration of the clickable items when hovering over the items with the mouse*/
   text-decoration: underline;
   color: #212121;
 }
@@ -120,7 +120,7 @@ ul {
  *
  */
 
-main {
+main { /*Configuration of the content*/
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   width: 100%;
   margin-left: auto;
@@ -140,7 +140,7 @@ main {
  *
  */
 
-.hero {
+.hero { /*Configuration of the hero section*/
   width: 100%;
   position: relative;
   background-image: url("./images/dog.jpeg");
@@ -148,7 +148,7 @@ main {
   height: 300px;
 }
 
-.hero article {
+.hero article { /*Configuration of the article*/
   box-sizing: border-box;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.7);
@@ -167,31 +167,31 @@ main {
  *
  */
 
-.top-news {
+.top-news { /*Configuration of the .top-news section*/
   max-height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
   width: 100%;
 }
 
-.news__title {
+.news__title { /*Configuration of the news title*/
   font-weight: 300;
   border-bottom: 1px solid #E0E0E0;
   line-height: 24px;
   font-size: 16px;
 }
 
-.top-news__item {
+.top-news__item { /*Configuration of the top-news items*/
   border-bottom: 1px solid #E0E0E0;
   padding: 1em 0;
   line-height: 19.2px;
 }
 
-.top-news__item:before {
+.top-news__item:before { /*:before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property. It is inline by default.*/
   content: "» ";
 }
 
-.top-news__item:last-child {
+.top-news__item:last-child { /*Eliminates the horizontal line from the last-child of the list*/
   border-bottom: none;
 }
 
@@ -202,7 +202,7 @@ main {
 }
 
 .top-news__item a:hover,
-.top-news__item a:active {
+.top-news__item a:active { /*The :active selector is used to select and style the active link. A link becomes active when you click on it. Tip: The :active selector can be used on all elements, not only links.*/
   text-decoration: underline;
 }
 
