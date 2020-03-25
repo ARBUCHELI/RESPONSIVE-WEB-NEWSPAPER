@@ -1,50 +1,52 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Brighton Times</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <meta charset="utf-8"> <!--encoding -->
+    <meta name="viewport" content="width=device-width,initial-scale=1"> <!-- Used to take control over the viewport -->
+    <!-- The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).-->
+    <!-- The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Used for compatibility with Internet Explorer -->
+    <title>Brighton Times</title> <!-- Title -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css"> <!-- For Google Fonts API -->
+    <link rel="stylesheet" type="text/css" href="main.css"> <!-- Link to css -->
+    <link rel="stylesheet" type="text/css" href="responsive.css"> <!-- Link to css -->
   </head>
   <body>
 
-    <header class="header">
+    <header class="header"> <!-- Container with the header -->
       <div class="header__inner">
-        <img class="header__logo" src="images/city.png" alt="iconic view of a cityscape">
-        <h1 class="header__title">
+        <img class="header__logo" src="images/city.png" alt="iconic view of a cityscape"> <!--Logo of the header-->
+        <h1 class="header__title"> <!--Title-->
           The Brighton Times
         </h1>
-        <a id="menu" class="header__menu">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <a id="menu" class="header__menu"> <!--This part implements the hamburguer menu-->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <!--svg is a container for svg graphics, the viewBox attribute makes the icon of the menu to fit a particular container and path means that the path will be scaled.-->
             <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
           </svg>
         </a>
       </div>
     </header>
 
-    <nav id="drawer" class="nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#">News</a></li>
+    <nav id="drawer" class="nav"> <!--Menu-->
+      <ul class="nav__list"> <!--Unordered list with the items of the Menu.-->
+        <li class="nav__item"><a href="#">News</a></li> <!--Each item of the menu is a clickable link.-->
         <li class="nav__item"><a href="#">Events</a></li>
         <li class="nav__item"><a href="#">Culture</a></li>
         <li class="nav__item"><a href="#">Blog</a></li>
       </ul>
     </nav>
 
-    <main>
+    <main> <!--Main section of the page divided in different sections.-->
       <section class="content">
-        <section class="hero">
-          <article class="description">
-            <h2>Absolutely astonishing breaking news!</h2>
+        <section class="hero"> <!--Section hero.-->
+          <article class="description"> <!--Article.-->
+            <h2>Absolutely astonishing breaking news!</h2><!--Title of the article.-->
             <p>Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko. Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</p>
           </article>
         </section>
 
-        <section class="news top-news">
-          <h2 class="news__title">Top news <a href="#" class="news__more">+ more</a></h2>
+        <section class="news top-news"> <!--Section top news.-->
+          <h2 class="news__title">Top news <a href="#" class="news__more">+ more</a></h2> <!-- Unordered list with the news.  Every title is linkable.-->
           <ul>
             <li class="top-news__item">
               <a href="#">Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.</a>
@@ -61,46 +63,46 @@
           </ul>
         </section>
 
-        <section class="scores">
+        <section class="scores"> <!--Section with the scores.-->
           <table class="scores__table">
-            <thead>
+            <thead> <!--Headers of the columns of the table.-->
               <tr>
                 <th>date</th>
                 <th>team</th>
-                <th colspan="2">score</th>
+                <th colspan="2">score</th> <!--This command divides the column in two sub-columns.-->
                 <th>team</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr> <!--First row.-->
                 <td>Friday</td>
                 <td>Bears</td>
                 <td>95</td>
-                <td class="winner">109</td>
+                <td class="winner">109</td> <!--The winner class is used to highlight the text.-->
                 <td class="winner">Cubs</td>
               </tr>
-              <tr>
+              <tr> <!--Second row.-->
                 <td>Friday</td>
                 <td class="winner">Otters</td>
                 <td class="winner">3</td>
                 <td>1</td>
                 <td>Cubs</td>
               </tr>
-              <tr>
+              <tr> <!--Third row.-->
                 <td>Saturday</td>
                 <td class="winner">Wolves</td>
                 <td class="winner">7</td>
                 <td>0</td>
                 <td>Panthers</td>
               </tr>
-              <tr>
+              <tr> <!--Fourth row.-->
                 <td>Sunday</td>
                 <td>Hawks</td>
                 <td>11</td>
                 <td class="winner">12</td>
                 <td class="winner">Capons</td>
               </tr>
-              <tr>
+              <tr> <!--Fifth row.-->
                 <td>Sunday</td>
                 <td class="winner">Stags</td>
                 <td class="winner">6</td>
@@ -112,7 +114,7 @@
           </table>
         </section>
 
-        <section class="weather">
+        <section class="weather"> <!--Section weather.-->
           <span class="weather__location">Brighton, UK</span>
           <span class="weather__desc">Sunny</span>
           <span class="weather__today">
@@ -143,7 +145,7 @@
           </ul>
         </section>
 
-        <section class="news recent-news">
+        <section class="news recent-news"> <!--Section most recent news.-->
           <h2 class="news__title">Latest news <a href="#" class="news__more">+ more</a></h2>
           <ul>
             <li class="snippet">
@@ -176,7 +178,7 @@
           </ul>
         </section>
       </section>
-      <footer>
+      <footer> <!--Footer.  Each title is linkable.-->
         <ul>
           <li><a href="#">Contact us</a></li>
           <li><a href="#">Follow us on Twitter</a></li>
@@ -184,20 +186,20 @@
         </ul>
       </footer>
     </main>
-    <script>
+    <script> //JavaScript code//
       /*
        * Open the drawer when the menu ison is clicked.
        */
-      var menu = document.querySelector('#menu');
-      var main = document.querySelector('main');
-      var drawer = document.querySelector('.nav');
+      var menu = document.querySelector('#menu'); //JavaScript querySelector method.//
+      var main = document.querySelector('main'); //JavaScript querySelector method.//
+      var drawer = document.querySelector('.nav'); //JavaScript querySelector method.//
 
-      menu.addEventListener('click', function(e) {
-        drawer.classList.toggle('open');
-        e.stopPropagation();
+      menu.addEventListener('click', function(e) { //EventListener that activates a function when clicked.  e is the short reference for event//
+        drawer.classList.toggle('open'); //Toggle the open class to the class drawer.//
+        e.stopPropagation(); //Stop deploying of the menu when the icon with the hamburger menu is clicked.
       });
-      main.addEventListener('click', function() {
-        drawer.classList.remove('open');
+      main.addEventListener('click', function() { 
+        drawer.classList.remove('open'); //Removes the class open from drawer.//
       });
 
     </script>
