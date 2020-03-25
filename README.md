@@ -21,7 +21,7 @@ Responsive Web Site.
 <strong>INSTRUCTIONS</strong>
 
 1) Donwload and unzip the repository folder.
-2) Inside of the repository directory a zipped folder with the name images is located.  Unzip the images folder insider of the repository folder.
+2) Inside of the repository directory a zipped folder with the name images is located.  Unzip the images folder insider of the repository folder. This will create create a folder called images with another folder inside called images. Cut and paste the images in the external folder called images in order to link the image elements properly. (At the end of this process you only will have one folder called images, with the images inside.
 3) Open the index.html file in Google Chrome to see the project.
 
 Author: Andrés R. Bucheli.
