@@ -1,17 +1,17 @@
- .content {
+ .content { /*The CSS flex-wrap property is used to specify whether flex items are forced into a single line or wrapped onto multiple lines. */
   display: flex;
   flex-wrap: wrap;
 }
 
 .header__menu {
-  display: none;
+  display: none; /*display: none; is commonly used with JavaScript to hide and show elements without deleting and recreating them.*/
 }
 
 .hero, .top-news, .scores, .weather, .recent-news {
-  order: 10;
+  order: 10; /*The order CSS property sets the order to lay out an item in a flex or grid container.*/
 }
 
-@media screen and (max-width: 549px) {
+@media screen and (max-width: 549px) { /*Media query for changing style*/
   .header__logo {
     height: 48px;
     margin-right: 0.5em;
@@ -22,17 +22,17 @@
     vertical-align: bottom; 
   }
   .nav {
-    z-index: 10;
+    z-index: 10; /*The z-index property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order. Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky).*/
     background-color: #fff;
     width: 300px;
     position: absolute;
-    /* This trasform moves the drawer off canvas. */
+    /*This trasform moves the drawer off canvas.*/
     -webkit-transform: translate(-300px, 0);
     transform: translate(-300px, 0);
-    /* Optionally, we animate the drawer. */
+    /*Optionally, we animate the drawer.*/
     transition: transform 2s ease;
   }
-  .nav.open {
+  .nav.open { /*Uses the open class for translating the menu to the position 0*/
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
   }
@@ -50,7 +50,7 @@
   }
   .header__menu svg {
     width: 32px;
-    fill: #E0E0E0;
+    fill: #E0E0E0; /*The fill property in CSS is for filling in the color of a SVG shape with color light grey.*/
   }
 }
 
